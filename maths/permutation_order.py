@@ -5,6 +5,8 @@ The order of a permutation is the least positive integer ``k`` such that the
 it is the least common multiple of the lengths of the permutation's disjoint
 cycles.
 
+Reference: https://en.wikipedia.org/wiki/Order_(group_theory)#Order_of_an_element
+
 Examples
 --------
 >>> permutation_order([0, 1, 2, 3])
