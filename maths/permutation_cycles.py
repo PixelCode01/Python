@@ -5,6 +5,8 @@ The permutation is represented as a sequence where the value at index ``i`` is
 cycle in the order the cycles are discovered.  By default fixed points are
 suppressed, but they can be included by setting ``include_fixed_points=True``.
 
+Reference: https://en.wikipedia.org/wiki/Permutation#Cycle_notation
+
 Examples
 --------
 >>> permutation_cycles([0, 1, 2, 3])
