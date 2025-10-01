@@ -5,6 +5,8 @@ index ``i`` gives the value ``p(i)``.  Multiplying the permutation by itself ``k
 times corresponds to composing it ``k`` times.  This algorithm works by
 inspecting each disjoint cycle and rotating it by ``k`` steps.
 
+Reference: https://en.wikipedia.org/wiki/Permutation#Product_and_inverse
+
 Examples
 --------
 >>> permutation_power([0, 1, 2, 3], 5)
