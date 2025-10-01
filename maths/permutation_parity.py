@@ -5,6 +5,8 @@ of transpositions, otherwise it is *odd*.  The sign of a permutation is 1 for
 an even permutation and -1 for an odd permutation.  The implementation below
 counts inversions, which is equivalent to counting transpositions.
 
+https://en.wikipedia.org/wiki/Parity_of_a_permutation
+
 Examples
 --------
 >>> permutation_parity([0, 1, 2, 3])
